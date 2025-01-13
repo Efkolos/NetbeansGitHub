@@ -8,11 +8,14 @@ public class suma {
 
         System.out.println("Introduzca segundo número");
         int num2 = scanner.nextInt();
+        
+        System.out.println("Introduzca tercer número");
+        int num3 = scanner.nextInt();
        
         System.out.println("El resultado de la suma es");
-        int resultado = num1 + num2;
+        int resultado = num1 + num2 + num3;
 
-        System.out.println ("Si sumamos "+num1+" más "+num2+" nos da como resultado "+resultado+"");
+        System.out.println ("Si sumamos "+num1+" más "+num2+" y "+num3+" nos da como resultado "+resultado+"");
 
         scanner.close();
     }
